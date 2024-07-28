@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background="@drawable/momo"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/nadiesabe" />
+
+        <TextView
+            android:id="@+id/nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#FF33CC"
+            android:background="@color/black"
+            android:textSize="70px"/>
+        <Button
+            android:id="@+id/play_pause"
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#FFFF00"
+            android:fontFamily="serif"
+            android:text="@string/play_pause" />
+
+
+
+        <Button
+            android:id="@+id/NadieSabe1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-120dp"
+            android:layout_marginTop="0dp"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/Monaco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-10dp"
+            android:layout_marginTop="-50dp"
+            android:text="2" />
+        <Button
+            android:id="@+id/Fina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="-50dp"
+            android:text="3" />
+        <Button
+            android:id="@+id/Hibiki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-120dp"
+            android:layout_marginTop="-0dp"
+            android:text="4" />
+        <Button
+            android:id="@+id/MR_OCTOBER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-10dp"
+            android:layout_marginTop="-50dp"
+            android:text="5" />
+        <Button
+            android:id="@+id/CYBERTRUCK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="-50dp"
+            android:text="6" />
+        <Button
+            android:id="@+id/VOU_787"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-120dp"
+            android:layout_marginTop="0dp"
+            android:text="7" />
+        <Button
+            android:id="@+id/SEDA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-10dp"
+            android:layout_marginTop="-50dp"
+            android:text="8" />
+        <Button
+            android:id="@+id/GRACIAS_POR_NADA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="-50dp"
+            android:text="9" />
+
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
